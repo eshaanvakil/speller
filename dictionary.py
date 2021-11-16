@@ -2,10 +2,7 @@ words = []
 
 
 def check(word):
-    if word in words:
-        return True
-    else:
-        return False
+    return if word in words
 
 
 def load(dictionary):
